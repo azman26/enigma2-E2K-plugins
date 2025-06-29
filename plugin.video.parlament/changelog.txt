@@ -1,0 +1,13 @@
+1.0.4
+- poprawa funkcjonowania timeshiftu dla transmisji live trwających dłużej niż 4 godziny
+1.0.3
+- [Senat] poprawka filtrowania w wyszukiwarce posiedzeń Senatu
+- [Senat] zawężenie wyboru kadencji w wyszukiwarce do 11.,10.,9. i 8.
+- [Sejm] poprawka wyszukiwarki archiwalnych transmisji
+1.0.2
+- [Senat] dostosowanie do nowego API serwisu
+- [Sejm] dodanie harmonograów wideo posiedzeń Sejmu (dostępne z poziomu menu kontekstowego)
+- [Sejm] możliwość wyboru kamery (posiedzenia Sejmu)
+1.0.1
+- przystosowanie do obsługi infoTagVideo (od Kodi ver 20)
+- poprawka odtwarzania (zmiana dostawcy streamingu)
