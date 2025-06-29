@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Ogólne">
+		<setting label="Wyświetlaj foldery jak katalogi z video" type="bool" id="videoContView" default="false"/>
+	</category>
+</settings>

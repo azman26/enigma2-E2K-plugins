@@ -1,0 +1,4 @@
+1.0.2
+- poprawka listowania transmisji dla wybranej lokalizacji
+1.0.1
+- usunięcie niewykorzystywanego modułu
