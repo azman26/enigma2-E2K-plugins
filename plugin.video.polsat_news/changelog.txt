@@ -1,0 +1,20 @@
+1.0.9
+- dodanie materiałów video z programu "Halo tu Polsat"
+1.0.8
+- aktualizacja adresu strumienia
+1.0.7
+- przystosowanie do obsługi infoTagVideo (od Kodi ver 20)
+- dodanie sekcji "Ulubione" z możliwością dodawania programów
+1.0.6
+- fix: lista trwających transmisji
+1.0.5
+- dodanie materiałów video i magazynów Polsat Sport
+- dodanie zakładki z transmisjami
+1.0.4
+- przebudowa sekcji "na żywo"
+1.0.3
+- nowe sekcje: "Reportaże Interwencji", "Wydarzenia24 (shorty)"
+1.0.2
+- poprawka błędnego addon ID
+1.0.1
+- dostosowanie do ISA dla K21
