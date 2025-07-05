@@ -1,0 +1,331 @@
+[{
+    "id": "ACT_pl",
+    "code": "ACT",
+    "language": "pl",
+    "label": "Polityka i społeczeństwo",
+    "slug": "polityka-i-spoleczenstwo",
+    "url": "https://www.arte.tv/pl/videos/polityka-i-spoleczenstwo/",
+    "description": "Dokumenty, reportaże śledcze, analizy geopolityczne, i ocena sytuacji na arenie międzynarodowej. ",
+    "order": 1,
+    "subcategories": [{
+        "id": "AJO_pl",
+        "code": "AJO",
+        "language": "pl",
+        "label": "ARTE Journal",
+        "slug": "arte-journal",
+        "url": "https://www.arte.tv/pl/videos/polityka-i-spoleczenstwo/arte-journal/",
+        "description": "Dwa wydania wiadomości dziennie, przygotowywane przez naszą francusko-niemiecką redakcję. Oryginalne spojrzenie na świat i europejskie podejście do wydarzeń kulturalnych. ",
+        "order": 1
+    }, {
+        "id": "AUV_pl",
+        "code": "AUV",
+        "language": "pl",
+        "label": "Zmiana perspektywy",
+        "slug": "zmiana-perspektywy",
+        "url": "https://www.arte.tv/pl/videos/polityka-i-spoleczenstwo/zmiana-perspektywy/",
+        "description": "Inne spojrzenie na świat",
+        "order": 6
+    }, {
+        "id": "KUL_pl",
+        "code": "KUL",
+        "language": "pl",
+        "label": "Oczami artystów",
+        "slug": "oczami-artystow",
+        "url": "https://www.arte.tv/pl/videos/polityka-i-spoleczenstwo/oczami-artystow/",
+        "description": "Świat oczami artystów",
+        "order": 3
+    }, {
+        "id": "DCY_pl",
+        "code": "DCY",
+        "language": "pl",
+        "label": "Analizy",
+        "slug": "analizy",
+        "url": "https://www.arte.tv/pl/videos/polityka-i-spoleczenstwo/analizy/",
+        "description": "Mapy, debaty i refleksje pomagające lepiej zrozumieć współczesny świat.",
+        "order": 4
+    }, {
+        "id": "ENQ_pl",
+        "code": "ENQ",
+        "language": "pl",
+        "label": "Seriale śledcze i reportaże",
+        "slug": "seriale-sledcze-i-reportaze",
+        "url": "https://www.arte.tv/pl/videos/polityka-i-spoleczenstwo/seriale-sledcze-i-reportaze/",
+        "description": "Poznaj ludzi z pierwszych stron gazet.",
+        "order": 2
+    }, {
+        "id": "JUN_pl",
+        "code": "JUN",
+        "language": "pl",
+        "label": "Dla młodzieży",
+        "slug": "dla-mlodziezy",
+        "url": "https://www.arte.tv/pl/videos/polityka-i-spoleczenstwo/dla-mlodziezy/",
+        "description": "Programy dla młodzieży.",
+        "order": 5
+    }]
+}, {
+    "id": "CPO_pl",
+    "code": "CPO",
+    "language": "pl",
+    "label": "Kultura",
+    "slug": "kultura",
+    "url": "https://www.arte.tv/pl/videos/kultura/",
+    "description": "To, co najlepsze w kulturze: teatr, taniec, malarstwo, architektura i najwięksi artyści.",
+    "order": 4,
+    "subcategories": [{
+        "id": "ART_pl",
+        "code": "ART",
+        "language": "pl",
+        "label": "Sztuka",
+        "slug": "sztuka",
+        "url": "https://www.arte.tv/pl/videos/kultura/sztuka/",
+        "description": "Przegląd wszystkich gatunków sztuki, od malarstwa po gry wideo poprzez architekturę i teatr.",
+        "order": 1
+    }, {
+        "id": "POP_pl",
+        "code": "POP",
+        "language": "pl",
+        "label": "Popkultura",
+        "slug": "popkultura",
+        "url": "https://www.arte.tv/pl/videos/kultura/popkultura/",
+        "description": "Programy dla miłośników dobrej muzyki, fanów wielkich gwiazd i poszukiwaczy nowych trendów",
+        "order": 2
+    }, {
+        "id": "IDE_pl",
+        "code": "IDE",
+        "language": "pl",
+        "label": "Idee",
+        "slug": "idee",
+        "url": "https://www.arte.tv/pl/videos/kultura/idee/",
+        "description": "Filozofia, styl życia i wielkie debaty intelektualne wokół aktualnych tematów.",
+        "order": 3
+    }]
+}, {
+    "id": "ARS_pl",
+    "code": "ARS",
+    "language": "pl",
+    "label": "ARTE Concert",
+    "slug": "arte-concert",
+    "url": "https://www.arte.tv/pl/arte-concert/",
+    "description": "Najlepsze występy dostępne przez cały rok sprawią że poczujecie jakbyście naprawdę tam byli!",
+    "order": 5,
+    "subcategories": [{
+        "id": "ADS_pl",
+        "code": "ADS",
+        "language": "pl",
+        "label": "Występy sceniczne",
+        "slug": "wystepy-sceniczne",
+        "url": "https://www.arte.tv/pl/arte-concert/najnowsze?genres=wystepy-sceniczne",
+        "description": "Cyrk, taniec, teatr i występy artystyczne zagwarantują Wam moc niezapomnianych wrażeń",
+        "order": 9
+    }, {
+        "id": "CLA_pl",
+        "code": "CLA",
+        "language": "pl",
+        "label": "Muzyka klasyczna",
+        "slug": "muzyka-klasyczna",
+        "url": "https://www.arte.tv/pl/arte-concert/najnowsze?genres=muzyka-klasyczna",
+        "description": "Koncerty, balet... Ciesz się bez końca najwybitniejszymi dziełami sztuki klasycznej.",
+        "order": 5
+    }, {
+        "id": "JAZ_pl",
+        "code": "JAZ",
+        "language": "pl",
+        "label": "Jazz",
+        "slug": "jazz",
+        "url": "https://www.arte.tv/pl/arte-concert/najnowsze?genres=jazz",
+        "description": "Najlepszy jazz z najciekawszych festiwali muzycznych na świecie. Daj się ponieść improwizacji!",
+        "order": 7
+    }, {
+        "id": "MUD_pl",
+        "code": "MUD",
+        "language": "pl",
+        "label": "Muzyka z całego świata",
+        "slug": "muzyka-z-calego-swiata",
+        "url": "https://www.arte.tv/pl/arte-concert/najnowsze?genres=muzyka-z-calego-swiata",
+        "description": "Światowa muzyka w całej swej różnorodności.",
+        "order": 8
+    }, {
+        "id": "OPE_pl",
+        "code": "OPE",
+        "language": "pl",
+        "label": "Opera",
+        "slug": "opera",
+        "url": "https://www.arte.tv/pl/arte-concert/najnowsze?genres=opera",
+        "description": "Wielcy klasycy, najnowsze odkrycia i współczesne dzieła. Najwspanialsze występy operowe z całego świata.",
+        "order": 6
+    }, {
+        "id": "MUA_pl",
+        "code": "MUA",
+        "language": "pl",
+        "label": "Pop i rock",
+        "slug": "pop-i-rock",
+        "url": "https://www.arte.tv/pl/arte-concert/najnowsze?genres=pop-i-rock",
+        "description": "Pop i rock",
+        "order": 1
+    }, {
+        "id": "MUE_pl",
+        "code": "MUE",
+        "language": "pl",
+        "label": "Muzyka elektroniczna",
+        "slug": "muzyka-elektroniczna",
+        "url": "https://www.arte.tv/pl/arte-concert/najnowsze?genres=muzyka-elektroniczna",
+        "description": "Muzyka elektroniczna",
+        "order": 2
+    }, {
+        "id": "HIP_pl",
+        "code": "HIP",
+        "language": "pl",
+        "label": "Hip-hop",
+        "slug": "hip-hop",
+        "url": "https://www.arte.tv/pl/arte-concert/najnowsze?genres=hip-hop",
+        "description": "Hip-hop",
+        "order": 3
+    }, {
+        "id": "MET_pl",
+        "code": "MET",
+        "language": "pl",
+        "label": "Metal",
+        "slug": "metal",
+        "url": "https://www.arte.tv/pl/arte-concert/najnowsze?genres=metal",
+        "description": "Metal",
+        "order": 4
+    }, {
+        "id": "BAR_pl",
+        "code": "BAR",
+        "language": "pl",
+        "label": "muzyka barokowa",
+        "slug": "muzyka-barokowa",
+        "url": "https://www.arte.tv/pl/arte-concert/najnowsze?genres=muzyka-barokowa",
+        "description": "muzyka barokowa",
+        "order": 10
+    }]
+}, {
+    "id": "SCI_pl",
+    "code": "SCI",
+    "language": "pl",
+    "label": "Nauka",
+    "slug": "nauka",
+    "url": "https://www.arte.tv/pl/videos/nauka/",
+    "description": "Programy, które pozwolą Wam zrozumieć najnowsze odkrycia w dziedzinie medycy, środowiska i nowych technologii.",
+    "order": 6,
+    "subcategories": [{
+        "id": "ENB_pl",
+        "code": "ENB",
+        "language": "pl",
+        "label": "W skrócie",
+        "slug": "w-skrocie",
+        "url": "https://www.arte.tv/pl/videos/nauka/w-skrocie/",
+        "description": "Nowinki ze świata nauki, ciekawe i poruszające programy, które przedstawią Wam naukę w pigułce!",
+        "order": 4
+    }, {
+        "id": "ENN_pl",
+        "code": "ENN",
+        "language": "pl",
+        "label": "Natura i środowisko",
+        "slug": "natura-i-srodowisko",
+        "url": "https://www.arte.tv/pl/videos/nauka/natura-i-srodowisko/",
+        "description": "Badania i reportaże na temat najważniejszych zagadnień dotyczących świata roślin i zwierząt.",
+        "order": 2
+    }, {
+        "id": "SAN_pl",
+        "code": "SAN",
+        "language": "pl",
+        "label": "Medycyna i zdrowie",
+        "slug": "medycyna-i-zdrowie",
+        "url": "https://www.arte.tv/pl/videos/nauka/medycyna-i-zdrowie/",
+        "description": "Wszystko co wiemy na temat naszego ciała, jego funkcjonowania i sposobu leczenia",
+        "order": 1
+    }, {
+        "id": "TEC_pl",
+        "code": "TEC",
+        "language": "pl",
+        "label": "Technologie i innowacje",
+        "slug": "technologie-i-innowacje",
+        "url": "https://www.arte.tv/pl/videos/nauka/technologie-i-innowacje/",
+        "description": "Najważniejsze przełomy w dziedzinie nauki i nowych technologii w naszym nieustannie zmieniającym się świecie.",
+        "order": 3
+    }]
+}, {
+    "id": "DEC_pl",
+    "code": "DEC",
+    "language": "pl",
+    "label": "Odkrycia",
+    "slug": "odkrycia",
+    "url": "https://www.arte.tv/pl/videos/odkrycia/",
+    "description": "Seriale dokumentalne, reportaże i magazyny naukowe w wyjątkowych ujęciach przedstawiające naturę i ciekawe cywilizacje.",
+    "order": 7,
+    "subcategories": [{
+        "id": "ATA_pl",
+        "code": "ATA",
+        "language": "pl",
+        "label": "Podano do stołu!",
+        "slug": "podano-do-stolu",
+        "url": "https://www.arte.tv/pl/videos/odkrycia/podano-do-stolu/",
+        "description": "Dokumenty, które pobudzą Wasz apetyt!",
+        "order": 3
+    }, {
+        "id": "EVA_pl",
+        "code": "EVA",
+        "language": "pl",
+        "label": "Podróże",
+        "slug": "podroze",
+        "url": "https://www.arte.tv/pl/videos/odkrycia/podroze/",
+        "description": "Nowe spojrzenie na naszą planetę - z drugiego końca świata bądź z okna własnego domu.",
+        "order": 2
+    }, {
+        "id": "NEA_pl",
+        "code": "NEA",
+        "language": "pl",
+        "label": "Przyroda i zwierzęta",
+        "slug": "przyroda-i-zwierzeta",
+        "url": "https://www.arte.tv/pl/videos/odkrycia/przyroda-i-zwierzeta/",
+        "description": "Wyrusz z nami w podróż na łono natury, jakiej nigdy dotąd nie widziałeś!",
+        "order": 1
+    }, {
+        "id": "VIA_pl",
+        "code": "VIA",
+        "language": "pl",
+        "label": "Jak żyją inni?",
+        "slug": "jak-zyja-inni",
+        "url": "https://www.arte.tv/pl/videos/odkrycia/jak-zyja-inni/",
+        "description": "Poznaj kulturę, tradycje i obyczaje ludzi z całego świata.",
+        "order": 4
+    }]
+}, {
+    "id": "HIS_pl",
+    "code": "HIS",
+    "language": "pl",
+    "label": "Historia",
+    "slug": "historia",
+    "url": "https://www.arte.tv/pl/videos/historia/",
+    "description": "Najważniejsze wydarzenia historyczne, które ukształtowały współczesny świat.",
+    "order": 8,
+    "subcategories": [{
+        "id": "CIV_pl",
+        "code": "CIV",
+        "language": "pl",
+        "label": "Cywilizacje",
+        "slug": "cywilizacje",
+        "url": "https://www.arte.tv/pl/videos/historia/cywilizacje/",
+        "description": "ARTE odkrywa minione cywilizacje i przybliża odkrycia, które uformowały współczesny świat.",
+        "order": 2
+    }, {
+        "id": "LGP_pl",
+        "code": "LGP",
+        "language": "pl",
+        "label": "Wybitne postacie",
+        "slug": "wybitne-postacie",
+        "url": "https://www.arte.tv/pl/videos/historia/wybitne-postacie/",
+        "description": "Portrety ludzi, którzy zmienili bieg Historii.",
+        "order": 3
+    }, {
+        "id": "XXE_pl",
+        "code": "XXE",
+        "language": "pl",
+        "label": "XX wiek",
+        "slug": "xx-wiek",
+        "url": "https://www.arte.tv/pl/videos/historia/xx-wiek/",
+        "description": "ARTE analizuje wydarzenia historyczne od początku XX wieku aż po dzień dzisiejszy.",
+        "order": 1
+    }]
+}]
