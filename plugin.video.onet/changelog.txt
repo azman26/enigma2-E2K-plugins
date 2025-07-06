@@ -1,0 +1,13 @@
+1.0.7
+- przebudowa zakładki "Podcasty"
+1.0.6
+- przystosowanie do obsługi infoTagVideo (od Kodi ver 20)
+- poprawki związane z listowaniem materiałów
+1.0.5
+- dodanie podcastów
+1.0.4
+- dodanie transmisji z kanału YT Onet News
+1.0.3
+- dostosowanie do ISA dla K21
+1.0.2
+- poprawka odtwarzania
