@@ -1,27 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.artetvpl" name="Arte.tv PL" version="0.2" provider-name="mbebe/mtr81">
-    <requires>
-        <!-- <import addon="xbmc.python" version="3.0.0" /> -->
-        <import addon="script.module.requests" />
-        <import addon="script.module.six"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <description lang="pl">Arte.tv PL</description>
-        <disclaimer lang="pl">https://github.com/mbebe/blomqvist</disclaimer>
-        <summary lang="pl">Arte.tv PL</summary>
-        <description lang="en">Arte.tv PL</description>
-        <disclaimer lang="en">https://github.com/mbebe/blomqvist</disclaimer>    
-        <summary lang="en">Arte.tv PL</summary>
-        <language>en</language>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <website>https://github.com/mbebe/blomqvist</website>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.artetvpl" name="ArteTV PL" version="1.1.0" provider-name="Community">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Arte.tv a la carte (Polish version)</summary>
+    <summary lang="pl_PL">Arte.tv a la carte (wersja polska)</summary>
+    <description lang="en_GB">Watch content from the Polish version of Arte.tv. Browse categories, collections, and search for your favorite shows.</description>
+    <description lang="pl_PL">Oglądaj treści z polskiej wersji serwisu Arte.tv. Przeglądaj kategorie, kolekcje i wyszukuj ulubione programy.</description>
+    <disclaimer lang="pl_PL">Część materiałów może być ograniczona terytorialnie. Ta wtyczka nie jest oficjalnie wspierana przez Arte.</disclaimer>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+    <source>https://github.com/user/repo</source> <!-- Zmień na swoje repozytorium jeśli posiadasz -->
+  </extension>
 </addon>

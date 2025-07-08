@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Odtwarzanie">
+        <setting label="Maksymalna jakość wideo" type="select" id="max_quality" default="0">
+            <description>Ogranicz maksymalną rozdzielczość wideo, aby oszczędzać transfer danych. "Najlepsza dostępna" użyje najwyższej jakości.</description>
+            <options>
+                <option label="Najlepsza dostępna">0</option>
+                <option label="1080p (Full HD)">1080</option>
+                <option label="720p (HD)">720</option>
+                <option label="540p (SD)">540</option>
+                <option label="360p (Niska)">360</option>
+            </options>
+        </setting>
+        <setting label="Preferowana wersja językowa" type="text" id="pref_lang_label" default="polska">
+            <description>Wpisz fragment nazwy preferowanej wersji (np. 'polska', 'oryginalna', 'napisami'). Wtyczka spróbuje ją wybrać automatycznie. Pozostaw puste, aby zawsze pytać.</description>
+        </setting>
+    </category>
+</settings>

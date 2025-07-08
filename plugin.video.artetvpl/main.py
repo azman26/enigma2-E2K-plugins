@@ -1,8 +1,7 @@
-# -*- coding: UTF-8 -*-
+# -*- coding: utf-8 -*-
 
 import e2kodi__init__ # aby zainicjowac sciezki i nie musiec zmieniac czegos w kodzie
 
-# -*- coding: utf-8 -*-
 import sys
 import json
 import re
@@ -241,7 +240,7 @@ def list_content(url):
     xbmcplugin.endOfDirectory(ADDON_HANDLE)
     
 def play_video(program_id):
-    """Pobiera strumienie i odtwarza wideo."""
+    """Pobiera strumienie i odtwarza wideo z priorytetem dla wersji polskiej."""
     url = f'https://api.arte.tv/api/player/v2/config/pl/{program_id}'
     data = api_request(url, api_type='player')
     
@@ -255,29 +254,29 @@ def play_video(program_id):
         xbmcplugin.setResolvedUrl(ADDON_HANDLE, False, xbmcgui.ListItem())
         return
 
+    # Tworzymy listę wersji, ale z priorytetem dla języka polskiego.
     versions = []
     for stream in streams:
         for version in stream.get('versions', []):
             label = version.get('label', 'Nieznana wersja')
             stream_url = stream.get('url')
             if label and stream_url:
-                versions.append({'label': label, 'url': stream_url})
-    
+                # Sprawdzamy, czy w etykiecie jest "polski" (ignorując wielkość liter)
+                if 'polski' in label.lower():
+                    # Jeśli tak, wstawiamy wersję polską na sam początek listy
+                    versions.insert(0, {'label': label, 'url': stream_url})
+                else:
+                    # W przeciwnym razie, dodajemy wersję na koniec listy
+                    versions.append({'label': label, 'url': stream_url})
+
     if not versions:
         xbmcgui.Dialog().notification("ArteTV", "Brak dostępnych wersji językowych.")
         xbmcplugin.setResolvedUrl(ADDON_HANDLE, False, xbmcgui.ListItem())
         return
 
-    if len(versions) > 1:
-        labels = [v['label'] for v in versions]
-        dialog = xbmcgui.Dialog()
-        select = dialog.select("Wybierz wersję:", labels)
-        if select == -1:
-            xbmcplugin.setResolvedUrl(ADDON_HANDLE, False, xbmcgui.ListItem())
-            return
-        final_url = versions[select]['url']
-    else:
-        final_url = versions[0]['url']
+    # Usuwamy okno dialogowe i zawsze wybieramy pierwszą pozycję z listy.
+    # Dzięki priorytetyzacji, jeśli wersja polska istnieje, jest ona teraz na pozycji [0].
+    final_url = versions[0]['url']
    
     play_item = xbmcgui.ListItem(path=final_url)
     play_item.setProperty('inputstream', 'inputstream.adaptive')
